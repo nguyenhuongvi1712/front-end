@@ -1,0 +1,224 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #ffffff;
+}
+
+#current-position {
+    font-size: 17px;
+    color: #222222;
+    background-color: #e9e9e9;
+    text-transform: uppercase;
+    padding: 13px 0px;
+    margin-bottom: 44px;
+}
+
+#current-position a {
+    font-size: 17px;
+    color: #222222;
+    text-transform: uppercase;
+    padding: 0px 6px;
+}
+
+#wp #content {
+    width: 810px;
+}
+
+#wp #content ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#wp #content ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 2px solid #e9f1f8;
+}
+
+#wp #content ul li:first-child {
+    padding-top: 0px;
+}
+
+#wp #content ul li .post-thump {
+    flex: 354px;
+    display: block;
+    padding-right: 22px;
+}
+
+#wp #content ul li .more-infor .title-post {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    line-height: 1.1;
+}
+
+#wp #content ul li .more-infor p:nth-child(2) {
+    color: #a69e9e;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding: 22px 0px;
+    margin-bottom: 0px;
+}
+
+#wp #content ul li .more-infor .post-excerpt {
+    color: #777777;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+#wp #content #direction {
+    flex-wrap: nowrap;
+    color: #0b0b0b;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 80px;
+}
+
+#wp #content #direction p {
+    margin-bottom: 0px;
+    margin-right: 13px;
+    padding-top: 6px;
+}
+
+#wp #content #direction a {
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    color: #0b0b0b;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #e9f1f8;
+    margin-right: 5px;
+    padding: 6.2px 12px;
+}
+
+#wp #content #direction a:hover {
+    background-color: #272727;
+    color: #ffffff;
+}
+
+#sidebar {
+    width: 307px;
+}
+
+#sidebar h2 {
+    font-size: 21px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #283943;
+    font-weight: 700;
+    padding: 15px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+}
+
+#sidebar #catalogue ul {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0px;
+    border: 2px solid #e9f1f8;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 54px;
+}
+
+#sidebar #catalogue ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e9f1f8;
+}
+
+#sidebar #catalogue ul li i {
+    display: none;
+    padding-top: 19px;
+}
+
+#sidebar #catalogue ul li a {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 17px 0px;
+    display: block;
+}
+
+#sidebar #catalogue ul li:last-child {
+    border-bottom: none;
+}
+
+#sidebar #catalogue ul li:hover {
+    border-bottom: 2px solid #d5be00;
+}
+
+#sidebar #catalogue ul li:hover a {
+    color: #d5be00;
+    text-decoration: none;
+}
+
+#sidebar #catalogue ul li:hover i {
+    display: block;
+    color: #d5be00;
+}
+
+#sidebar #banner {
+    margin-bottom: 46px;
+}
+
+#sidebar #bestseller ul {
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid #e9f1f8;
+}
+
+#sidebar #bestseller ul li {
+    display: flex;
+    border-bottom: 2px solid #e9f1f8;
+    padding: 20px 0px;
+}
+
+#sidebar #bestseller ul li a.item-post-thump img {
+    width: 75px;
+    height: auto;
+    margin-right: 15px;
+}
+
+#sidebar #bestseller ul li .item-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #272727;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+
+#sidebar #bestseller ul li:hover .item-name {
+    text-decoration: none;
+    color: #d5be00;
+}
+
+#sidebar #bestseller .price {
+    color: #b74851;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline;
+}
+
+#sidebar #bestseller span {
+    text-decoration: line-through;
+    color: #8d8d8d;
+    font-size: 12px;
+}
+
+#sidebar #bestseller .buy {
+    color: #00708c;
+    font-size: 13px;
+    display: block;
+    margin-top: 6px;
+}

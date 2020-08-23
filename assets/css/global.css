@@ -1,0 +1,98 @@
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+#header-top {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+ul#header-menu {
+    list-style: none;
+    text-decoration: none;
+    padding: 20px 0px;
+    margin-bottom: 0px;
+}
+
+ul#header-menu li a {
+    padding: 0px 24px;
+    color: #000000;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#search {
+    padding: 20px 0px;
+    /* margin-right: 32px ; */
+}
+
+#search a {
+    color: #000000;
+}
+
+#search input {
+    display: none;
+}
+
+#bag {
+    padding: 11px 0px;
+}
+
+#footer {
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+
+#about-us {
+    width: 358px;
+    text-align: justify;
+    padding-top: 74px;
+}
+
+#about-us p {
+    margin-top: 40px;
+}
+
+#footer #item-list {
+    width: 150px;
+    padding-top: 98px;
+    padding-bottom: 75px;
+}
+
+#footer #item-list ul {
+    padding-left: 0px;
+}
+
+#footer #item-list ul li a {
+    padding: 10px 0px;
+    color: #ffffff;
+    display: block;
+}
+
+#footer #item-list p {
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+#fb-fanpage {
+    width: 290px;
+    padding-top: 98px;
+}
+
+#coppy-right p {
+    background-color: #ffffff;
+    color: #2f2f2f;
+    text-align: center;
+    padding: 12px 0px;
+    margin-bottom: 0px;
+}
